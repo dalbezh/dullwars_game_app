@@ -1,4 +1,4 @@
-from classes.unit import BaseUnit
+from classes.unit import PlayerUnit, EnemyUnit
 
 
 class BaseSingleton(type):
@@ -23,7 +23,7 @@ class Arena(metaclass=BaseSingleton):
     game_is_running = False
     battle_result = None
 
-    def start_game(self, player: BaseUnit, enemy: BaseUnit):
+    def start_game(self, player: PlayerUnit, enemy: EnemyUnit):
         self.player = player
         self.enemy = enemy
         self.game_is_running = True

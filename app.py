@@ -135,7 +135,3 @@ def choose_enemy():
         enemy.equip_weapon(Equipment().get_weapon(weapon_name=weapon_name))
         heroes["enemy"] = enemy
         return redirect(url_for("start_fight"))
-
-
-if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5000, debug=True)

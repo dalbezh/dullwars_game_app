@@ -8,4 +8,4 @@ COPY data data
 COPY templates templates
 COPY *.py .
 
-CMD python -m gunicorn app:app -b 0.0.0.0:8080 -w 4
+CMD  python wsgi.py

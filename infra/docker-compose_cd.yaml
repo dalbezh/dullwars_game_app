@@ -3,7 +3,7 @@ version: '3.8'
 services:
 
   app:
-    image: dalbezh/skywars_app:ver-1
+    image: dalbezh/skywars_app:$GITHUB_REF_NAME-$GITHUB_RUN_ID
     restart: always
 
   nginx:
