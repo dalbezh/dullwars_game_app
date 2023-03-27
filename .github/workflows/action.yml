@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: clone code
         uses: actions/checkout@v2
+      - name: ls
+        run: ls -al
       - name: render configs
         run: |
           mkdir deploy
