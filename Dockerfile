@@ -6,6 +6,6 @@ RUN pip install -r requirements.txt
 COPY classes classes
 COPY data data
 COPY templates templates
-COPY *.py .
+COPY *.py ./
 
 CMD  python wsgi.py
