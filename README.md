@@ -13,3 +13,4 @@ ___
     * [unit_classes.py](./classes/unit_classes.py) в основном нужен для хранения данных о классе персонажей
 * Представления в [app.py](app.py)
 ___
+Настроено CI/CD в [action.yml](./.github/workflows/action.yml)
