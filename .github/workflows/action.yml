@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.HOST_USERNAME }}
           key: ${{ secrets.HOST_KEY }}
           port: ${{ secrets.HOST_PORT }}
-          source: "deploy/docker-compose_skywars.yml"
+          source: "deploy/docker-compose_skywars.yml,nginx.conf"
           target: "deploy"
           strip_components: 1
       - name: deploy app
