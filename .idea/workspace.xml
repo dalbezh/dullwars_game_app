@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c75810d-bbd5-419d-ba2d-8fa982108277" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/infra/docker-compose_cd.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/action.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/arena.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/arena.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/unit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/nginx.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
