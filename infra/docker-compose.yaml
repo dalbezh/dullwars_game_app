@@ -3,7 +3,7 @@ version: '3.8'
 services:
 
   app:
-    image: dalbezh/skywars_app:ver-1
+    build: ../
     restart: always
 
   nginx:
