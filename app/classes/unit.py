@@ -3,8 +3,8 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from random import randint
 
-from classes.equipment import Weapon, Armor
-from classes.unit_classes import UnitClass
+from .equipment import Weapon, Armor
+from .unit_classes import UnitClass
 
 
 class BaseUnit(ABC):

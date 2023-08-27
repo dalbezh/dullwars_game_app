@@ -1,9 +1,12 @@
 version: '3.8'
+name: dull-wars
 
 services:
 
   app:
     build: ../
+    command: >
+      sh -c "python wsgi.py"
     restart: always
 
   nginx:

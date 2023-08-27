@@ -6,7 +6,7 @@ from typing import Optional
 import marshmallow
 import marshmallow_dataclass
 
-from constants import FILE_DATA
+from app.constants import FILE_DATA
 
 
 @dataclass

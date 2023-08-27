@@ -1,9 +1,12 @@
 version: '3.8'
+name: dull-wars
 
 services:
 
   app:
     image: dalbezh/skywars_app:$GITHUB_REF_NAME-$GITHUB_RUN_ID
+    command: >
+      sh -c "python wsgi.py"
     restart: always
 
   nginx:

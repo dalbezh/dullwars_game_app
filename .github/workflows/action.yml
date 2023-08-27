@@ -1,5 +1,8 @@
 name: Build and deploy workflow
-on: [push]
+on:
+  push:
+    branches:
+      - deploy
 jobs:
   build_and_push:
     runs-on: ubuntu-latest
@@ -23,7 +26,7 @@ jobs:
       - name: render configs
         run: |
           mkdir deploy
-          cat infra/docker-compose_cd.yaml | envsubst > deploy/docker-compose_skywars.yml
+          cat infra/docker-compose_ci.yaml | envsubst > deploy/docker-compose_skywars.yml
       - name: copy files to server
         uses: appleboy/scp-action@master
         with:

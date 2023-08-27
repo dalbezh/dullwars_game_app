@@ -1,12 +1,13 @@
 from flask import Flask, render_template, request, url_for
 from werkzeug.utils import redirect
 
-from classes.arena import Arena
-from classes.equipment import Equipment
-from classes.unit import PlayerUnit, EnemyUnit
-from classes.unit_classes import unit_classes
+from .classes.arena import Arena
+from .classes.equipment import Equipment
+from .classes.unit import PlayerUnit, EnemyUnit
+from .classes.unit_classes import unit_classes
 
 app = Flask(__name__)
+app.jinja_env.auto_reload = True
 
 heroes = {
     "player": NotImplemented,

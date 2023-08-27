@@ -1,4 +1,4 @@
-from classes.unit import PlayerUnit, EnemyUnit
+from .unit import PlayerUnit, EnemyUnit
 
 
 class BaseSingleton(type):

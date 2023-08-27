@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from classes.skills import Skill, FuryPunch, HardShot
+from .skills import Skill, FuryPunch, HardShot
 
 
 @dataclass

@@ -13,6 +13,7 @@ ___
 
 Запуск через Docker Compose:
 ```shell
+docker-compose -f infra/docker-compose.yaml build &&
 docker-compose -f infra/docker-compose.yaml up -d
 ```
 Доступ через браузер:
@@ -21,11 +22,11 @@ http://localhost:80
 ___
 #### По структуре приложения:
 
-* Вся логика находится в [/classes](./classes)
-    * в [arena.py](./classes/arena.py) игровой процесс
-    * в [equipment.py](./classes/equipment.py) всё для экипировки
-    * в [skills.py](./classes/skills.py) классы умений
-    * в [unit.py](./classes/unit.py) классы юнитов игрока и противника
-    * [unit_classes.py](./classes/unit_classes.py) в основном нужен для хранения данных о классе персонажей
-* Представления в [app.py](app.py)
-* Данные берутся из [JSON файла](./data/equipment.json)
+* Вся логика находится в [app/classes](app/classes)
+    * в [arena.py](app/classes/arena.py) игровой процесс
+    * в [equipment.py](app/classes/equipment.py) всё для экипировки
+    * в [skills.py](app/classes/skills.py) классы умений
+    * в [unit.py](app/classes/unit.py) классы юнитов игрока и противника
+    * [unit_classes.py](app/classes/unit_classes.py) в основном нужен для хранения данных о классе персонажей
+* Представления в [app/app.py](app/app.py)
+* Данные берутся из [JSON файла](app/data/equipment.json)
