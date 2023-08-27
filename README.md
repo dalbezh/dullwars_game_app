@@ -1,5 +1,4 @@
 # DULLWARS
-___
 
 #### Technology stack:
 [![Python](https://img.shields.io/badge/python-v3.9-orange)](https://www.python.org/downloads/release/python-394/)
