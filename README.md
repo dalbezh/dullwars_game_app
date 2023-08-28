@@ -3,6 +3,7 @@
 #### Technology stack:
 [![Python](https://img.shields.io/badge/python-v3.9-orange)](https://www.python.org/downloads/release/python-394/)
 [![Flask](https://img.shields.io/badge/Flask-v2.0.2-blue)](https://flask.palletsprojects.com/en/2.3.x/changes/#version-2-0-2)
+[![Nginx](https://img.shields.io/badge/nginx-v1.19.3-black)](https://hub.docker.com/layers/library/nginx/1.19.3-alpine/images/sha256-4e21f77cde9aaeb846dc799b934a42b66939d19755d98829b705270e916c7479)
 ___
 
 #### Описание:
